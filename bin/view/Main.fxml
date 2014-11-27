@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import java.lang.Object?>
+<?import java.lang.String?>
+
+<BorderPane fx:controller="presenter.MainPresenter" fx:id="root"
+	xmlns:fx="http://javafx.com/fxml">
+	<center>
+		<TabPane tabClosingPolicy="UNAVAILABLE">
+		</TabPane>
+	</center>
+</BorderPane>
+

@@ -1,0 +1,48 @@
+.table-view *.scroll-bar:horizontal *.increment-button,
+.table-view *.scroll-bar:horizontal *.decrement-button {
+    -fx-background-color: null;
+    -fx-background-radius: 0.0;
+    -fx-background-insets: 0.0;
+    -fx-padding: 0.0;
+}
+
+.table-view *.scroll-bar:horizontal *.increment-arrow, 
+.table-view *.scroll-bar:horizontal *.decrement-arrow {
+    -fx-background-color: null;
+    -fx-background-radius: 0.0;
+    -fx-background-insets: 0.0;
+    -fx-padding: 0.0;
+    -fx-shape: null;
+}
+
+.column-header, .table-view .filler {
+    -fx-border-width: 0.0 0.0 1.0 0.0;
+	-fx-animated: true ;
+}
+
+.tbrUsers {
+	-fx-border-color: red;
+}
+
+.tab-pane *.tab-header-background {
+	-fx-background-color: -fx-outer-border, -fx-inner-border, derive(#4c4c4c, -20.0%);
+    -fx-effect: innershadow(two-pass-box , rgba(0.0,0.0,0.0,0.6) , 4.0, 0.0 , 0.0 , 0.0);
+}
+
+.table-cell {
+     /* The rest is from caspian.css */
+    -fx-skin: "com.sun.javafx.scene.control.skin.TableCellSkin";
+    -fx-padding: 0.166667em; /* 2px, plus border adds 1px */
+    -fx-background-color: transparent;
+    -fx-border-color: transparent -fx-table-cell-border-color transparent transparent;
+    -fx-border-width: 0.083333em; /* 1 */
+    -fx-cell-size: 2.0em; /* 24 */
+    -fx-text-fill: red;
+    
+}
+
+#cellUser{
+	    -fx-text-fill: red;
+	
+}
+
